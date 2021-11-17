@@ -13,7 +13,7 @@ import javax.enterprise.context.RequestScoped;
  *
  * @author ziyad
  */
-@Named(value = "bean")
+@Named(value = "bean2")
 @RequestScoped
 public class Bean {
 
