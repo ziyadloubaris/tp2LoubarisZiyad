@@ -13,9 +13,9 @@
             #{n + 1}#{! status.last ? ', ' : ''}
         </ui:repeat>
        <br/>
-<h:link outcome="formulaire_1" value="Saisir un autre nombre"/>
+<h:link outcome="formulaire_1?faces-redirect=true" value="Saisir un autre nombre"/>
        
-<h:message for="nombre"/>
+    <h:message for="nombre"/>
     
 </html>
 
