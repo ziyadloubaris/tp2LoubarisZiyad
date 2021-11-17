@@ -40,4 +40,8 @@ public class Bean {
         }
         return l;
     }
+    
+    public String afficher() {
+        return "affichage_1?nb="+ nombre + "&faces-redirect=true";
+    }
 }
